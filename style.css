@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.sidebar{
+    width: 155px;
+    height: 100vh;
+    
+    position: absolute;
+    top: 0;
+    left: 1200px;
+}
+.search-icon{
+    width: 20px;
+    display: block;
+    margin: 120px auto 0;
+}
+.social-links{
+    width: 20px;
+    display: block;
+    margin: 220px auto 0;
+    text-align: center;
+}
+.social-links img{
+    height: 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.info-icon{
+    width: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
+.msg-container{
+    width: 600px;
+    height: 280px;
+    position: absolute;
+    left: 14%;
+    top: 57%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    
+}
